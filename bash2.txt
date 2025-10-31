@@ -1,0 +1,17 @@
+2. cd /c/Users/Elijah/Desktop/bash_training
+3. mkdir test3
+4. echo -e "row1\nrow2\nrow3\nrow4" > test3/4; echo -e "row1\nrow2\nrow3\nrow4" > test3/5; echo -e "row1\nrow2\nrow3\nrow4" > test3/6
+5. grep "row2" test3/5
+6. grep "row" test3/*
+7. grep -c "row" test3/6
+8. find test3 -name "5"
+9. find test3 -name "5" -delete
+10. echo "test" > test3/4
+11. echo "fail" > test3/4
+12. echo "test" >> test3/4
+13. ps aux
+14. kill 666
+15. ping rusau.net
+16. ping -n 5 rusau.net
+17. curl https://petstore.swagger.io/v2/pet/findByStatus?status=available&status=pending&status=sold
+18. curl -X POST https://petstore.swagger.io/v2/user -H "Content-Type: application/json" -d "{\"id\": 999009, \"username\": \"user_name999\", \"firstName\": \"John\", \"lastName\": \"Doe\", \"email\": \"exampl@exampl.com\", \"password\": \"secret123\", \"phone\": \"+79011234767\", \"userStatus\": 1}"

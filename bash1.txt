@@ -1,0 +1,22 @@
+2. cd /c/Users/Elijah/Desktop/bash_training
+3. pwd
+4. mkdir test1
+5. cd test1
+6. touch 1 2 3
+7. ls
+8. cd ..
+9. mkdir test2
+10. rmdir test2
+11. rm test1/2
+12. mkdir test3; touch test3/11 test3/22
+13. rm -r test3
+14. mkdir test4
+15. mv test1/1 test1/3 test4
+16. echo line > test4/1; echo line>> test4/1; echo line>> test4/1
+17. cat test4/1
+18. echo -e "line\nline\nline" >> test4/3
+19. cat test4/1 test4/3
+20*. nano test4/1 
+
+*- без редактора: echo -e "text\ntext\ntext" > test4/1
+
