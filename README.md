@@ -42,5 +42,5 @@
 Убейте процесс 666 в консоли (можно не убивать, а просто написать команду)|kill 666
 Узнайте доступность ресурса rusau.net, используя ping|ping rusau.net
 Отправьте 5 пакетов на сайт rusau.net|ping -n 5 rusau.net
-Используя GET и команду curl, получите информацию о зарегистрированных питомцах с любым статусом на https://petstore.swagger.io/|curl https://petstore.swagger.io/v2/pet/findByStatus?status=available&status=pending&status=sold
-Используя POST и команду curl, создайте нового пользователя на https://petstore.swagger.io/|curl -X POST https://petstore.swagger.io/v2/user -H "Content-Type: application/json" -d "{\"id\": 999009, \"username\": \"user_name999\", \"firstName\": \"John\", \"lastName\": \"Doe\", \"email\": \"exampl@exampl.com\", \"password\": \"secret123\", \"phone\": \"+79011234767\", \"userStatus\": 1}"
+Используя GET и команду curl, получите информацию о зарегистрированных питомцах с любым статусом на https://petstore.swagger.io/|`curl https://petstore.swagger.io/v2/pet/findByStatus?status=available&status=pending&status=sold`
+Используя POST и команду curl, создайте нового пользователя на https://petstore.swagger.io/|`curl -X POST https://petstore.swagger.io/v2/user -H "Content-Type: application/json" -d "{\"id\": 999009, \"username\": \"user_name999\", \"firstName\": \"John\", \"lastName\": \"Doe\", \"email\": \"exampl@exampl.com\", \"password\": \"secret123\", \"phone\": \"+79011234767\", \"userStatus\": 1}"`
